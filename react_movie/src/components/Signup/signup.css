@@ -1,0 +1,98 @@
+.signup-container {
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #FFFBF5;
+  }
+  
+  .signup-container h2 {
+    margin-bottom: 20px;
+  }
+  .top-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+  }
+  
+  .back-arrow {
+    margin-right: 10px; /* Adjust margin as needed */
+  }
+  
+  .home-m {
+    text-decoration: none;
+    color: #333; /* Adjust color as needed */
+  }
+  
+  /* Optional: Hover effect for the home link */
+  .home-m:hover {
+    text-decoration: underline;
+  }
+  
+  .signup-container input[type="text"],
+  .signup-container input[type="email"],
+  .signup-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .signup-container input[type="text"]::placeholder,
+  .signup-container input[type="email"]::placeholder,
+  .signup-container input[type="password"]::placeholder {
+    color: #999; /* Placeholder text color */
+  }
+  
+  .signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5b25be ;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-container button:hover {
+    background-color:  #3c1682;
+  }
+  
+  .signup-error-message {
+    color: #ff0000;
+  }
+
+  .login_user{
+    padding-top: 10px;
+  }
+  .navigate_login{
+    padding-left: 5px;
+    text-decoration: underline;
+    color:#3c1682;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 480px) {
+    .signup-container {
+        padding: 10px;
+        margin:200px 3%;
+      }
+  
+    .signup-container h2 {
+      font-size: 18px;
+    }
+  
+    .signup-container input[type="text"],
+    .signup-container input[type="email"],
+    .signup-container input[type="password"] {
+      padding: 8px;
+      font-size: 14px;
+    }
+  
+    .signup-container button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
